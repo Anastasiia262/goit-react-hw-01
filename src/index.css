@@ -1,0 +1,46 @@
+/* Правильный пример index.css */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-card img {
+    border-radius: 50%;
+  }
+  
+  .profile-card p {
+    margin: 10px 0;
+  }
+  
+  .profile-stats {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-stats li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
